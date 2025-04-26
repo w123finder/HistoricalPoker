@@ -24,7 +24,7 @@ A Texas Hold'em–style poker game built in Unity, featuring a human player and 
 1. **Clone the Repository**  
    ```bash
    git clone https://github.com/w123finder/HistoricalPoker.git
-   cd poker-ai-unity
+   cd HistoricalPoker
 
 ### **Open in Unity**
 
