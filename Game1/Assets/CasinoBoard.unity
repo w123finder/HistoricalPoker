@@ -1045,8 +1045,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 138297326}
   m_HandleRect: {fileID: 138297325}
   m_Direction: 0
-  m_Value: 1
-  m_Size: 0.9999999
+  m_Value: 0
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2076,7 +2076,43 @@ MonoBehaviour:
   messagePrefab: {fileID: 2843520122203546898, guid: 2d7a8f363e4934216bdb14aa7de8e271, type: 3}
   inputField: {fileID: 1318970231}
   sendButton: {fileID: 37488227}
-  playerPanels: []
+  playerPanels:
+  - avatarImage: {fileID: 0}
+    card1: {fileID: 377185919471747348}
+    card2: {fileID: 377185919471747347}
+    nameText: {fileID: 377185919471747346}
+    chipsText: {fileID: 377185919471747345}
+    betCount: {fileID: 377185919471747344}
+    highlightBorder: {fileID: 377185919471747349}
+    turnIndicator: {fileID: 377185919471747343}
+    expression: 
+  - avatarImage: {fileID: 437082040}
+    card1: {fileID: 437082045}
+    card2: {fileID: 437082044}
+    nameText: {fileID: 437082043}
+    chipsText: {fileID: 437082042}
+    betCount: {fileID: 437082041}
+    highlightBorder: {fileID: 437082046}
+    turnIndicator: {fileID: 437082039}
+    expression: neutral
+  - avatarImage: {fileID: 732469648}
+    card1: {fileID: 732469653}
+    card2: {fileID: 732469652}
+    nameText: {fileID: 732469651}
+    chipsText: {fileID: 732469650}
+    betCount: {fileID: 732469649}
+    highlightBorder: {fileID: 732469654}
+    turnIndicator: {fileID: 732469647}
+    expression: neutral
+  - avatarImage: {fileID: 391220253}
+    card1: {fileID: 391220258}
+    card2: {fileID: 391220257}
+    nameText: {fileID: 391220256}
+    chipsText: {fileID: 391220255}
+    betCount: {fileID: 391220254}
+    highlightBorder: {fileID: 391220259}
+    turnIndicator: {fileID: 391220252}
+    expression: neutral
   chatScrollRect: {fileID: 187307064}
 --- !u!4 &579619231
 Transform:
@@ -4482,6 +4518,7 @@ MonoBehaviour:
   endPanel: {fileID: 795949128}
   continueButton: {fileID: 1600905421}
   resetButton: {fileID: 774105507}
+  resultText: {fileID: 0}
   coveringCards:
   - {fileID: 190542619}
   - {fileID: 1343550096}
